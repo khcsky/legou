@@ -1,0 +1,147 @@
+#Login .login {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background: url("../img/bg.png") no-repeat center;
+
+}
+
+.loginBox .chag{
+    display: none;
+}
+.loginBox .chag.loact{
+    display: block;
+}
+
+.loginBox form {
+    text-align: center
+}
+
+.loginBox form input {
+
+    border: 1px solid #bfbfbf;
+}
+
+.loginBox form input:first-of-type {
+    text-indent: 50px;
+    margin-top: 40px;
+    width: 290px;
+    height: 38px;
+    margin-bottom: 20px;
+    background: url("../img/2.png") no-repeat 0px 0px;
+}
+
+.loginBox form input:nth-of-type(2) {
+    text-indent: 50px;
+    width: 290px;
+    height: 38px;
+    margin-bottom: 20px;
+    background: url("../img/2.png") no-repeat 0px 0px;
+
+}
+
+.loginBox form input:nth-of-type(4) {
+    text-align: center;
+    width: 290px;
+    height: 38px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    outline: none;
+
+}
+
+.loginBox form .inp3 {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 28px;
+    top: 160px;
+
+}
+
+.loginBox form .logintext {
+    position: absolute;
+    left: 50px;
+    top: 157px;
+}
+
+.loginBox form .logintext a {
+    color: black;
+}
+
+.loginBox form .logintext a:last-of-type {
+    margin-left: 150px;
+}
+
+.scanword2 {
+    border-top: 1px solid #e6e6e6;
+    padding-top: 20px;
+
+}
+
+#Login .login .loginBox {
+    height: 370px;
+    width: 350px;
+    background: #fff;
+    position: absolute;
+    left: 58%;
+    top: 56px;
+    padding-top: 20px;
+    box-sizing: border-box;
+
+}
+
+#Login .login .loginBox h1 {
+    font-weight: normal;
+    font-size: 20px;
+    float: left;
+    line-height: 24px;
+    width: 175px;
+    text-align: center;
+    color: #666666;
+    cursor: pointer;
+}
+
+.active {
+    color: #ff6600 !important;
+}
+
+.loginBox h1:first-of-type {
+    border-right: 1px solid #f6f6f6;
+    box-sizing: border-box;
+
+}
+
+.loginBox .scan {
+    border-top: 1px solid #f6f6f6;
+    margin-top: 15px;
+    position: relative;
+
+}
+
+.loginBox .scan p:first-of-type {
+    width: 174px;
+    height: 174px;
+    position: absolute;
+    top: 60px;
+    left: 28px;
+}
+
+.loginBox .scan p:last-of-type {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+.loginBox .scanword {
+    width: 220px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    color: #666666;
+    line-height: 34px;
+    top: 310px;
+}

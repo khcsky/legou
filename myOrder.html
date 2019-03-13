@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>会员中心首页</title>
+    <!--引入公用样式-->
+    <link rel="stylesheet" href="./css/common.css">
+    <!--    我的订单css样式-->
+    <link rel="stylesheet" href="./css/myOrder.css">
+    <!--引入轮播插件-->
+    <link rel="stylesheet" href="./css/slider.css">
+
+
+    <!--引入jQuery插件-->
+    <script src="js/jquery.js"></script>
+    <!--引入轮播插件js代码-->
+    <script src="js/slidebox.js"></script>
+
+</head>
+<body>
+<!--头部-->
+<header class="clearfix">
+    <!--头部顶部内容-->
+    <div class="headerTop container-fluid">
+        <div class="container clearfix">
+            <p class="fl">legochina.cn</p>
+            <p class="fr">欢迎光临<a href="#">乐购</a>，请 <a href="#">登陆</a>\<a href="#">注册</a></p>
+            <h1><a href=""><img src="./img/LOGO_02.jpg"></a></h1>
+        </div>
+    </div>
+    <div class="schCar container mt10 clearfix">
+        <p class="fr">
+            <a href="#"><span></span>购物车<span>3</span></a>
+            <a href="#">我的订单</a>
+        </p>
+        <form class="myF fr" action="#">
+            <input type="text" placeholder="创意文具">
+            <input type="submit" value="">
+        </form>
+
+    </div>
+    <nav class="container clearfix">
+        <p class="fl ml240 fz24 mt10 c999">乐我所乐，我的VIP！</p>
+        <ul class="navList fl">
+            <li><a href="#">首页</a></li>
+            <li class="active"><a href="#">我的订单</a></li>
+            <li><a href="#">会员特权</a></li>
+
+        </ul>
+    </nav>
+
+
+</header>
+
+<section id="myOrder" class="container clearfix">
+    <div class="myOrderL fl">
+        <p class="rem1 clearfix">
+            <i></i>
+            <span class="ml5 c999">洲袋子  V5 <br><span class="fz12 cb3">查看你的特权</span></span>
+
+        </p>
+        <p class="rem2">
+            <i class="one"></i>
+            <span class="fz12 ml5">
+                我的乐豆： --
+            </span>
+
+        </p>
+        <p class="rem2">
+            <i class="two"></i>
+            <span class="fz12 ml5">
+                我的优惠券： --
+            </span>
+
+        </p>
+        <p class="rem3">
+            <i>
+                已获得礼包
+            </i>
+        </p>
+        <p class="textcenter mt20">
+            10个礼包（未领取）
+        </p>
+        <p class="rem3">
+            <i>
+                已获得礼包
+            </i>
+        </p>
+        <p class="rem4 clearfix">
+            <i class="ionc11"></i>
+            <i class="ionc22"></i>
+            <i class="ionc33"></i>
+            <i class="ionc44"></i>
+            <i class="ionc55"></i>
+
+        </p>
+        <p class="rem5 mt20">
+            <i class="ionc11">
+                <span class="mt42 fz18 fw">PLUS专享</span>
+                <span>20元现金卡</span>
+
+            </i>
+            <i class="ionc22">
+                <span class="mt42 fz18 fw">PLUS专享</span>
+                <span>20元现金卡</span>
+            </i>
+            <i class="ionc33">
+                <span class="mt42 fz18 fw">PLUS专享</span>
+                <span>20元现金卡</span>
+            </i>
+            <i class="ionc44">
+                <span class="mt42 fz18 fw">PLUS专享</span>
+                <span>20元现金卡</span>
+            </i>
+        </p>
+
+    </div>
+
+    <form action="#" method="get" class="myOrderR fr">
+        <p><span class="cf60 fz18">订单列表</span><span>待付款（<span>1</span>）</span><span>待收货（<span>0</span>）</span><span>待评价（<span>1</span>）</span></p>
+        <h3 class="cf60 fwn">全部订单（6）</h3>
+        <table>
+            <tr>
+                <td width="200px" >
+                    <input class="allX fl" type="checkbox"> <a class="allword fl" href="javascript:">全选</a>
+                </td>
+
+                <td width="200px">商品</td>
+                <td width="200px" >单价</td>
+                <td width="220px"  colspan="2">状态</td>
+
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <p class="borbot"></p>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input class="prox" type="checkbox">
+                    <a class="scpic" href="#"><img src="img/bookpic4.jpg" alt=""></a>
+                    <span class="porword ml20">从你的全世界路过</span>
+                </td>
+                <td class="sPrice" colspan="2">41.00</td>
+
+
+                <td>
+                    <a href="javascript:" class="cf60">待付款</a>
+                    <br>
+                    <a class="myCear" href="#"><u>评价</u></a>
+                    <a class="myCear2" >删除</a>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="prox" type="checkbox">
+                    <a class="scpic" href="#"><img src="img/bookpic4.jpg" alt=""></a>
+                    <span class="porword ml20">从你的全世界路过</span>
+                </td>
+                <td class="sPrice" colspan="2">41.00</td>
+
+
+                <td>
+                    <a href="javascript:" class="cf60">待付款</a>
+                    <br>
+                    <a class="myCear" href="#"><u>评价</u></a>
+                    <a class="myCear2" >删除</a>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="prox" type="checkbox">
+                    <a class="scpic" href="#"><img src="img/bookpic4.jpg" alt=""></a>
+                    <span class="porword ml20">从你的全世界路过</span>
+                </td>
+                <td class="sPrice" colspan="2">41.00</td>
+
+
+                <td>
+                    <a href="javascript:" class="cf60">待付款</a>
+                    <br>
+                    <a class="myCear" href="#"><u>评价</u></a>
+                    <a class="myCear2" >删除</a>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="prox" type="checkbox">
+                    <a class="scpic" href="#"><img src="img/bookpic4.jpg" alt=""></a>
+                    <span class="porword ml20">从你的全世界路过</span>
+                </td>
+                <td class="sPrice" colspan="2">41.00</td>
+
+
+                <td>
+                    <a href="javascript:" class="cf60">待付款</a>
+                    <br>
+                    <a class="myCear" href="#"><u>评价</u></a>
+                    <a class="myCear2" >删除</a>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="prox" type="checkbox">
+                    <a class="scpic" href="#"><img src="img/bookpic4.jpg" alt=""></a>
+                    <span class="porword ml20">从你的全世界路过</span>
+                </td>
+                <td class="sPrice" colspan="2">41.00</td>
+
+
+                <td>
+                    <a href="javascript:" class="cf60">待付款</a>
+                    <br>
+                    <a class="myCear" href="#"><u>评价</u></a>
+                    <a class="myCear2" >删除</a>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="prox" type="checkbox">
+                    <a class="scpic" href="#"><img src="img/bookpic4.jpg" alt=""></a>
+                    <span class="porword ml20">从你的全世界路过</span>
+                </td>
+                <td class="sPrice" colspan="2">41.00</td>
+
+
+                <td>
+                    <a href="javascript:" class="cf60">待付款</a>
+                    <br>
+                    <a class="myCear" href="#"><u>评价</u></a>
+                    <a class="myCear2" >删除</a>
+                </td>
+
+            </tr>
+
+
+
+
+            <tr>
+                <td colspan="6">
+                    <p class="bor"></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input  class="allX" type="checkbox"> <p class="fl">全选 &emsp; 删除选中商品</p>
+                </td>
+                  <td >
+                      已选择  <span class="cf60">1</span>   件商品
+                  </td>
+                <td>总价&ensp;<span class="cf60 allPrice mr10">41.00</span></td>
+
+                <td>
+                    <p class="jies">去结算</p>
+
+                </td>
+            </tr>
+
+        </table>
+
+
+    </form>
+    <div><img src="./img/porbanner2.png" alt=""></div>
+</section>
+
+
+<footer class="mt20">
+    <div class="title pl18 clearfix">
+    </div>
+    <div class="footerTop">
+        <ul class="clearfix">
+            <li><a href="#"><img src="img/222_11.png" alt=""></a></li>
+            <li><a href="#"><img src="img/222_13.png" alt=""></a></li>
+            <li><a href="#"><img src="img/222_15.png" alt=""></a></li>
+            <li><a href="#"><img src="img/222_17.png" alt=""></a></li>
+        </ul>
+    </div>
+    <div class="footerMid">
+        <ul class="clearfix">
+            <li>
+                <dl>
+                    <dt><a href="#">购物指南</a></dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">发票制度</a></dd>
+                    <dd><a href="#">账户管理</a></dd>
+                    <dd><a href="#">会员优惠</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt><a href="#">支付方式</a></dt>
+                    <dd><a href="#"> 货到付款</a></dd>
+                    <dd><a href="#">网上支付</a></dd>
+                    <dd><a href="#">礼品卡支付</a></dd>
+                    <dd><a href="#">银行转帐</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt><a href="#">订单服务</a></dt>
+                    <dd><a href="#">订单配送查询</a></dd>
+                    <dd><a href="#">订单状态说明</a></dd>
+                    <dd><a href="#">自助取消订单</a></dd>
+                    <dd><a href="#">自助修改订单</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt><a href="#">退换货</a></dt>
+                    <dd><a href="#"> 退换货政策</a></dd>
+                    <dd><a href="#">自助申请退换货</a></dd>
+                    <dd><a href="#">退换货进度查询</a></dd>
+                    <dd><a href="#">退款方式和时间</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt><a href="#">商家服务</a></dt>
+                    <dd><a href="#">商家中心</a></dd>
+                    <dd><a href="#">运营服务</a></dd>
+                    <dd><a href="#">加入尾品汇</a></dd>
+                    <dd><a href="#"><img src="img/logo_00.png" alt=""></a></dd>
+                </dl>
+            </li>
+        </ul>
+
+
+    </div>
+    <div class="footerBot">
+        <ul class="clearfix">
+            <li><a href="#"> 公司简介</a></li>
+            <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">网站联盟</a></li>
+            <li><a href="#">乐购招商</a></li>
+            <li><a href="#">机构销售</a></li>
+            <li><a href="#"> 手机乐购</a></li>
+            <li><a href="#"> 官方Blog</a></li>
+            <li><a href="#"> 热词搜索</a></li>
+
+        </ul>
+        <p>Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+    </div>
+
+</footer>
+
+
+</body>
+</html>

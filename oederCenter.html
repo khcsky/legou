@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单中心</title>
+    <!--引入公用样式-->
+    <link rel="stylesheet" href="./css/common.css">
+    <!--   订单中心css样式-->
+    <link rel="stylesheet" href="./css/oederCenter.css">
+    <!--引入jQuery插件-->
+    <script src="js/jquery.js"></script>
+    <!--引入订单中心js代码-->
+    <script src="./js/oederCenter.js"></script>
+</head>
+<body>
+<!--头部-->
+<header class="clearfix">
+    <!--头部顶部内容-->
+    <div class="headerTop container-fluid">
+        <div class="container clearfix">
+            <p class="fl">legochina.cn</p>
+            <p class="fr">欢迎光临<a href="index.html">乐购</a>，请 <a href="ScanCodeLogin.html">登陆</a>\<a href="register.html">注册</a>
+            </p>
+            <h1><a href=""><img src="./img/LOGO_02.jpg"></a></h1>
+        </div>
+    </div>
+    <div class="schCar container mt10 clearfix">
+        <p class="fr">
+            <a href="#"><span></span>购物车<span>3</span></a>
+            <a href="#">我的订单</a>
+        </p>
+        <form class="myF fr" action="#">
+            <input type="text" placeholder="创意文具">
+            <input type="submit" value="">
+        </form>
+
+    </div>
+    <nav class="container clearfix">
+        <ul class="navList">
+            <li><a href="#">图书</a></li>
+            <li><a href="#">电子书</a></li>
+            <li><a href="#">原创文学</a></li>
+            <li><a href="#">服装</a></li>
+            <li><a href="#">运动户外</a></li>
+            <li><a href="#">孕婴童</a></li>
+            <li><a href="#">家居</a></li>
+            <li><a href="#">创意文具</a></li>
+            <li><a href="#">地方特产</a></li>
+            <li><a href="#">海外购</a></li>
+            <li><a href="#">电器城</a></li>
+        </ul>
+    </nav>
+
+
+</header>
+<!--购物车版块-->
+<section class="container mt20">
+    <h3 class="fz18 cb3">填写并核对订单信息</h3>
+    <form action="#" method="get">
+        <div class="myNew clearfix pl10 mt10">
+            <p class="fl">收货人信息</p>
+            <p class="fr c108 mr10">新增收货地址</p>
+        </div>
+        <div class="myAddress clearfix">
+            <p class="fl ad1 active">运送&emsp;四川<i></i></p>
+            <p class="fl ml15">成都市&emsp;高新区&emsp;天府新谷11号楼1101&emsp;&emsp;&emsp;&emsp;收货人 X某某 联系电话：136******88 </p>
+            <p class="fr ad2">默认收货地址</p>
+            <p class="clearboth"></p>
+            <h3 class="fz18 cb3 mt42 mb20">更多收货地址</h3>
+            <p class="fl ad1">运送&emsp;四川<i></i></p>
+            <p class="fl ml15">成都市&emsp;高新区&emsp;天府新谷11号楼1101&emsp;&emsp;&emsp;&emsp;收货人 X某某 联系电话：136******88 </p>
+            <p class="fr fz24 mr100 cf60">+</p>
+
+        </div>
+
+        <div>
+            <p class="myNew pl10">支付方式</p>
+
+            <ul class="zfList clearfix mt20 mb40">
+                <li class="active">货到付款 <i></i></li>
+                <li>微信支付  <i></i></li>
+                <li>信用卡  <i></i></li>
+                <li>银行卡  <i></i></li>
+                <p class="brnoner fl mt10 ml20"><a href="#">更多>></a><p>
+            </ul>
+
+        </div>
+        <div class="myNew clearfix pl10 mt10">
+            <p class="fl">送货清单</p>
+            <p class="fr c108 mr10">返回购物车修改</p>
+            <p class="fr c108 mr40">价格说明</p>
+
+        </div>
+        <div class="shqd clearfix">
+            <div class="psfsL fl">
+                <p class="mt20 ml20">配送方式：</p>
+                <p class="ad1 ml40 mt15">顺丰快递<i></i></p>
+                <p class="mt42 pl10"><span>付款方式：</span><a href="#">现金</a> <span class="c108 ml240">修改</span></p>
+                <p class="mt10 pl10"><span>配送时间：</span><a href="#">预计8月30日12：00-16：00送达</a> <span class="c108 ml60">修改</span>
+                </p>
+
+            </div>
+            <div class="psfsR fr">
+                <a href="#"><img src="./img/porbook1.jpg" alt=""></a>
+                <ul>
+                    <li class="ml40">从你的全世界路过</li>
+                    <li class="cred">41.00</li>
+                    <li>1</li>
+                    <li>有货</li>
+                </ul>
+            </div>
+        </div>
+        <div class="fpNews">
+            <h3 class="pl10">发票信息：</h3>
+            <p class="fpTop pl10">
+
+            <a href="#">普通发票（电子）</a>
+            <a href="#">个人</a>
+            <a href="#">明细</a>
+            <a class="c108" href="#">修改</a>
+            </p>
+            <p class="fpBot">
+                <span><a href="javascript:">1</a>件商品</span>
+                <span>总商品金额：<a href="javascript:">41.00</a></span>
+                <span>运费：<a href="javascript:">6.00</a></span>
+                <span>应付总额：<a href="javascript:">47.00</a></span>
+
+            </p>
+
+        </div>
+        <div class="psdz clearfix">
+            <p class="fl mt15 ml15">配送至</p>
+            <p class="fl mt15 psdzTwo">成都高新区三环新谷11号1101</p>
+            <p class="fr psdzThr">提交订单</p>
+        </div>
+
+
+    </form>
+</section>
+
+<!-- 猜你喜欢-->
+<section id="youlove" class="container mt20">
+    <div class="mt42"><img src="img/porbanner2.png" alt=""></div>
+</section>
+
+<!--底部footer-->
+<footer>
+    <div class="title pl18 clearfix">
+    </div>
+    <div class="footerTop">
+        <ul class="clearfix">
+            <li><a href="#"><img src="img/222_11.png" alt=""></a></li>
+            <li><a href="#"><img src="img/222_13.png" alt=""></a></li>
+            <li><a href="#"><img src="img/222_15.png" alt=""></a></li>
+            <li><a href="#"><img src="img/222_17.png" alt=""></a></li>
+        </ul>
+    </div>
+    <div class="footerMid">
+        <ul class="clearfix">
+            <li>
+                <dl>
+                    <dt><a href="#">购物指南</a></dt>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">发票制度</a></dd>
+                    <dd><a href="#">账户管理</a></dd>
+                    <dd><a href="#">会员优惠</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt><a href="#">支付方式</a></dt>
+                    <dd><a href="#"> 货到付款</a></dd>
+                    <dd><a href="#">网上支付</a></dd>
+                    <dd><a href="#">礼品卡支付</a></dd>
+                    <dd><a href="#">银行转帐</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt><a href="#">订单服务</a></dt>
+                    <dd><a href="#">订单配送查询</a></dd>
+                    <dd><a href="#">订单状态说明</a></dd>
+                    <dd><a href="#">自助取消订单</a></dd>
+                    <dd><a href="#">自助修改订单</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt><a href="#">退换货</a></dt>
+                    <dd><a href="#"> 退换货政策</a></dd>
+                    <dd><a href="#">自助申请退换货</a></dd>
+                    <dd><a href="#">退换货进度查询</a></dd>
+                    <dd><a href="#">退款方式和时间</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt><a href="#">商家服务</a></dt>
+                    <dd><a href="#">商家中心</a></dd>
+                    <dd><a href="#">运营服务</a></dd>
+                    <dd><a href="#">加入尾品汇</a></dd>
+                    <dd><a href="#"><img src="img/logo_00.png" alt=""></a></dd>
+                </dl>
+            </li>
+        </ul>
+
+
+    </div>
+    <div class="footerBot">
+        <ul class="clearfix">
+            <li><a href="#"> 公司简介</a></li>
+            <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">网站联盟</a></li>
+            <li><a href="#">乐购招商</a></li>
+            <li><a href="#">机构销售</a></li>
+            <li><a href="#"> 手机乐购</a></li>
+            <li><a href="#"> 官方Blog</a></li>
+            <li><a href="#"> 热词搜索</a></li>
+
+        </ul>
+        <p>Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+    </div>
+
+</footer>
+
+
+</body>
+</html>

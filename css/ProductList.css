@@ -1,0 +1,283 @@
+/*产品列表页*/
+
+#productList .porListl{
+    width: 998px;
+    height: 430px;
+    line-height: 430px;
+}
+#productList .porListr {
+    width: 200px;
+    height: 430px;
+}
+#productList .porListr h3{
+    text-indent: 15px;
+    width: 200px;
+    line-height: 30px;
+    background: #93d46f;
+    color: #fff;
+}
+
+#productList .porListr ul li img{
+
+    width: 90px;
+    height: 86px;
+}
+#productList .porListr ul li .word1{
+    text-align: center;
+    width: 20px;
+    line-height: 20px;
+    background: #ff6600;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#productList .porListr ul li span{
+    width: 110px;
+    display: inline-block;
+    line-height: 42px;
+    position: absolute;
+    right: 4px;
+    top: 10px;
+    font-size: 14px;
+}
+#productList .porListr ul li .non{
+    position: relative;
+    width: 200px;
+    height: 42px;
+    border-bottom: 1px solid  #b3b3b3;;
+    overflow: hidden;
+}
+#productList .porListr ul li .blok{
+    position: relative;
+    width: 200px;
+    padding-top: 20px;
+    height: 120px;
+    border-bottom: 1px solid  #b3b3b3;
+    display: none;
+
+}
+#productList .porListr ul li:first-child .non{
+    display: none;
+}
+#productList .porListr ul li:first-child .blok{
+    display: block;
+}
+/*乐购图书折扣*/
+
+#legoubook h2{
+    text-align: center;
+    font-weight: normal;
+    width: 200px;
+    line-height: 40px;
+    background: #ff6600;
+    color: #fff;
+}
+
+#legoubook  ul {
+    width: 1200px;
+    padding-left: 15px;
+}
+
+#legoubook  ul li {
+    width: 210px;
+    height: 260px;
+    float: left;
+    margin-right: 28px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#legoubook  ul li .plbottom {
+    width: 150px;
+    height: 100px;
+    text-align: left;
+}
+#legoubook  ul li .plbottom p{
+    line-height: 25px;
+}
+
+#legoubook  ul li:hover {
+    box-shadow: 5px 5px 2px #cccccc;
+    background: #f2f2f2;
+    margin-left: 1px;
+}
+
+/*新书上架 newBook*/
+
+
+#newBook .newbkleft{
+    width: 896px;
+    height: 500px;
+    border: solid 2px #e6e6e6;
+}
+
+
+#newBook .newbkleft li {
+    width: 170px;
+    height: 220px;
+    float: left;
+    margin-right: 8px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#newBook .newbkleft li .plbottom {
+    width: 150px;
+    height: 100px;
+    text-align: left;
+}
+#newBook .newbkleft li .plbottom p{
+    line-height: 20px;
+}
+
+#newBook .newbkleft li:hover {
+    box-shadow: 5px 5px 2px #cccccc;
+    background: #f2f2f2;
+    margin-left: 1px;
+}
+
+/*右边*/
+#newBook .rightBook {
+    height: 500px;
+    width: 286px;
+    border: solid 2px #e6e6e6;
+}
+#newBook .rightBook h3 {
+    width: 286px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #808080;
+}
+
+#newBook .rightBook ul {
+    padding-left: 20px;
+}
+.rightBook ul li {
+    width: 266px;
+    border-bottom: 2px solid #e6e6e6;;
+    position: relative;
+    line-height: 43px;
+    text-align: center;
+
+}
+.rightBook ul li span {
+    position: absolute;
+    top: 0;
+    left: -16px;
+    color: red;
+}
+
+.rightBook li div img {
+
+    float: left;
+}
+.rightBook ul li p {
+    padding-bottom: 20px;
+     height:160px;
+    line-height: 22px;
+    color: #404040;
+
+}
+.clearaAct {
+    display: none;
+}
+.rightBook ul li div.ggactive {
+    display:block;
+}
+.rightBook ul li div{
+    display:none;
+}
+.rightBook ul li:last-child div{
+    border: none;
+}
+
+/*独家提供 provide*/
+#provide{
+    overflow: hidden;
+}
+#provide .provideLB{
+    height: 500px;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+#provide .dj ul li{
+    float: left;
+    width: 98px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+#provide ul li.active{
+    background: #ff6600;
+    color: #fff;
+}
+#provide .provideLB>div{
+    width: 170px;
+    height: 220px;
+    margin: 6px 8px;
+    float: left;
+    position: relative;
+}
+#provide .bigFocus>ul:first-of-type{
+    position:absolute;
+    top: 46px;
+    left: 0px;
+
+}
+
+#provide .bigFocus ul li img{
+    width: 150px !important;
+    height: 150px!important;
+}
+#provide .bigFocus ul li p{
+   line-height: 20px !important;
+}
+
+/*youLike*/
+#youLike .newbkleft{
+
+    height: 500px;
+    border-bottom: solid 2px #e6e6e6;
+}
+
+.titletwo p{
+    width: 120px;
+    font-size: 18px;
+    color: #468bfd;
+    font-weight: bold;
+    cursor: pointer;
+}
+#youLike  .newbkleft li {
+    width:200px;
+    height: 220px;
+    float: left;
+
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+#youLike  .newbkleft li .plbottom {
+    width: 150px;
+    height: 100px;
+    text-align: left;
+}
+#youLike  .newbkleft li .plbottom p{
+    line-height: 20px;
+}
+
+#youLike  .newbkleft li:hover {
+    box-shadow: 5px 5px 2px #cccccc;
+    background: #f2f2f2;
+}
+#youLike .newbkleft{
+    display: none;
+}
+#youLike .newbkleft.active{
+    display: block;
+}
+
+

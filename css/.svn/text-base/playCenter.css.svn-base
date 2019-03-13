@@ -1,0 +1,126 @@
+#playCenter form h3{
+    width: 479px;
+    height: 20px;
+    font-size: 16px;
+    color: #666666;
+    text-indent: 10px;
+}
+#playCenter form .ddxq{
+    width: 73px;
+    height: 20px;
+    line-height: 20px;
+
+
+}
+#playCenter form .ddxq a{
+    color: #1080e9
+}
+#playCenter form .ddxqPlay{
+    width: 1200px;
+    height: 60px;
+    background-color: #f2f2f2;
+    line-height: 60px;
+
+
+}
+#playCenter form .legouPlay{
+    margin: 10px 0;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #ff6600;
+    line-height: 40px;
+    color: #fefefe;
+}
+#playCenter form .bank{
+    width: 1200px;
+    height: 96px;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.bank .bankL{
+    width: 125px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    text-align: center;
+    border: solid 2px #ff6600;
+    color: #4d4d4d;
+    position: relative;
+
+}
+.bank .bankL i {
+    background: url("../img/select.png") no-repeat;
+    width: 16px;
+    height: 14px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.bank .bankML{
+    width: 348px;
+    height: 34px;
+    line-height: 34px;
+    border: solid 1px #bfbfbf;
+    margin-left: 30px;
+}
+.bank .bankMR{
+
+    width: 120px;
+    height: 30px;
+    background-color: #999999;
+    margin-top: 3px;
+    margin-left: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+
+}
+.bank .bankR{
+    height: 34px;
+    line-height: 34px;
+    margin-right: 20px;
+}
+.newPlay{
+
+    width: 228px;
+    height: 60px;
+    background-color: #ff6600;
+    border-radius: 2px;
+   font-size: 24px;
+    text-align: center;
+    line-height: 60px;
+    color: #fefefe;
+
+}
+
+.otherPlay{
+    margin: 10px 0;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #76aff5;
+    line-height: 40px;
+    color: #fefefe;
+}
+.playList{
+
+
+    height: 94px;
+    background-color: #f2f2f2;
+    line-height: 94px;padding-left: 60px;
+
+}
+
+.playList ul li{
+    float: left;
+
+
+}

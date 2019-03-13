@@ -1,0 +1,132 @@
+#register form{
+    border-top: 1px solid rgba(146,146,146,0.4);
+    padding-top: 20px;
+
+}
+#register form div{
+    width: 410px;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #ccc;
+    margin: 24px auto;
+    position: relative;
+}
+#register form p{
+    width: 130px;
+    line-height: 40px;
+    text-indent: 10px;
+    color: #666666;
+    font-size: 20px;
+}
+#register form input{
+    width: 270px;
+    line-height: 40px;
+}
+input{
+    outline: none;
+    border: none;
+
+}
+input::placeholder{
+    color: #ccc;
+}
+#register form .brnon{
+    border: none;
+    margin-top: -40px;
+
+}
+#register form div .change{
+    width: 15px;
+    height: 15px;
+    margin-top: 16px;
+
+
+}
+
+#register form div span{
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+
+}
+#register form button{
+    width: 410px;
+    height: 44px;
+    background: #ff6600;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    outline: none;
+
+}
+#register form div .yzm{
+    position: absolute;
+    height: 36px;
+    font-size: 24px;
+    width: 120px;
+    line-height: 36px;
+    background-color: #1a83e5;
+    text-align: center;
+    top: -21px;
+    left: 285px;
+    color: #fff;
+}
+#register form div .getyzm{
+    position: absolute;
+    height: 36px;
+    font-size: 18px;
+    width: 120px;
+    line-height: 36px;
+    background-color: #e6e6e6;;
+    text-align: center;
+    top: -21px;
+    left: 285px;
+    letter-spacing: 0px;
+    color: #4d4d4d;
+}
+
+    /*提示定位*/
+#register form div #user-error{
+     color: red;
+     position: relative;
+     left: 440px;
+     top: -40px;
+
+}
+
+#register form div #pwd-error{
+    color: red;
+    position: relative;
+    left: 440px;
+    top: -40px;
+
+}
+#register form div #checkPwd-error{
+    color: red;
+    position: relative;
+    left: 440px;
+    top: -40px;
+
+}
+#register form div #phone-error{
+    color: red;
+    position: relative;
+    left: 440px;
+    top: -40px;
+
+}
+#register form div #yzm-error{
+    color: red;
+    position: relative;
+    left: 440px;
+    top: -40px;
+
+}
+#register form div #phyzm-error{
+    color: red;
+    position: relative;
+    left: 440px;
+    top: -40px;
+
+}
